@@ -1,0 +1,15 @@
+/*Aside Styles*/
+
+aside {
+    background: white;
+}
+
+aside img.trans {
+    width: 40%;
+    float: left;
+}
+
+aside img.demi {
+    width: 30%;
+    float: right;
+}

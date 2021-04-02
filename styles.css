@@ -1,0 +1,74 @@
+/* Global Fonts */
+
+@font-face {
+    font-family: Porky;
+    src: url(porky.TTF);
+}
+
+@font-face {
+    font-family: Aquire;
+    src: url(aquire.otf);
+}
+
+/* Title Styles */ 
+
+header{
+    background: linear-gradient(to right, rgba(218, 179, 255, 0), rgba(218, 179, 255, 1));
+}
+
+header#logo img {
+    width: 8em;
+    float: left;
+    padding-left: 5px;
+}
+
+h1.title {
+    font-size: 100px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white; 
+    text-shadow: 0 0 20px black;
+    font-family: Porky;
+}
+
+/* Navigation Styles */
+
+nav li {
+    width: 50%;
+    float: left;
+    text-align: center;
+    background-color: rgb(242, 204, 255);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 3px solid black;
+    border-right: none;
+    border-left: none;
+}
+
+nav li.left {
+    border-right: 20px solid black;
+}
+
+nav li a {
+    color: black;
+    font-family: Aquire;
+    display: inline-block;
+    font-size: 35px; 
+    transition: transform 250ms;
+}
+
+nav li a:visited {
+    color: black;
+}
+
+nav li.left a:hover {
+    transform: translateX(-20px);
+}
+
+nav li.right a:hover {
+    transform: translateX(20px);
+}
+
+
+/* Content Styles */
